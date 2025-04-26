@@ -1,0 +1,91 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body {background-color: #292a2d;
+line-height: 24px;}
+
+
+section { display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding-top: 20px;
+padding-right: 254px ;
+padding-left: 254px;
+padding-bottom: 50px;
+gap: 40px;}
+
+.Title {font-size: 16px;
+color: white;
+padding: 8px 12px;
+font-weight: 600;
+line-height: 24px;
+overflow: hidden;
+position: sticky;
+top: 0px;
+z-index: 10;
+background-color:#292a2d;
+width: 752px;
+text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+.Answer-Container {display: flex;
+flex-direction: column;
+width: 752px;
+
+}
+
+.Answer-Container_header {display: flex;
+    flex-direction: row;
+justify-content: space-between;
+background-color: #404045;
+align-items: center;
+position: sticky;
+top: 40px;
+height: 40px;
+gap: 8px;
+padding: 6px 22px 6px 14px;
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+z-index: 10;
+
+}
+
+.Answer-Container_header_rigth {display: flex;
+gap: 17px;
+}
+
+
+.Answer-Container_body {background-color: #212327;
+color: white;
+padding: 6px 14px 6px 14px;
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;}
+
+button {display: flex;
+background-color: transparent;
+border: none;
+color: rgb(186 186 193);
+font-size: 13px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+gap: 4px;}
+
+.Answer-Container_header_rigth_left {display: flex;
+gap: 12px;}
+
+.Answer-Container_header_left {font-size: 12px;
+color: rgb(186 186 193);
+line-height: 18px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bebo {
+    color: rgb(186 186 193);
+    font-weight: 0;
+}
